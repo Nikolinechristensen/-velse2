@@ -118,6 +118,29 @@ img {
     text-align: center;
   }
 }
+#filtre {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: flex-start;
+
+  width: 100%;
+  margin-left: 0;
+  margin-right: auto;
+
+  padding-bottom: 2rem;
+}
+#filtre button {
+  background-color: pink;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+#filtre button:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+}
 
 @media (min-width: 800px) {
   .produktliste {
