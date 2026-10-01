@@ -118,6 +118,12 @@ img {
     text-align: center;
   }
 }
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
 #filtre {
   display: flex;
   align-items: center;
@@ -138,6 +144,28 @@ img {
   cursor: pointer;
 }
 #filtre button:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+}
+#sortering {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: flex-end;
+
+  width: 100%;
+  margin-left: 0;
+  margin-right: auto;
+
+  padding-bottom: 2rem;
+}
+#sortering button {
+  background-color: white;
+  color: pink;
+  border: none;
+  cursor: pointer;
+}
+#sortering button:hover {
   transform: scale(1.05);
   opacity: 0.8;
 }
